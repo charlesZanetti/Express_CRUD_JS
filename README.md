@@ -1,40 +1,46 @@
-# CRUD Simples com Express.js + Frontend
 
-Este projeto demonstra um **CRUD (Create, Read, Update, Delete)** com separação entre **frontend** e **backend**.  
-A API foi desenvolvida com **Express.js**, e o frontend é uma interface simples para consumir as rotas da API.  
+# 🚀 CRUD Simples com Express.js + React
 
----
+![Node.js](https://img.shields.io/badge/node.js-18.x-green) 
+![Express.js](https://img.shields.io/badge/express.js-4.x-lightgrey) 
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## 🚀 Funcionalidades
-
-- **Backend (API)**: fornece rotas para criar, listar, atualizar e remover itens  
-- **Frontend**: interface web para interagir com a API  
-- Separação de responsabilidades: cada pasta roda individualmente  
+Este é um projeto de **CRUD (Create, Read, Update, Delete)** separado em **frontend** e **backend**.  
+A API foi feita com **Express.js** e o frontend é uma interface simples para consumir as rotas.
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## ✨ Funcionalidades
+
+- **Backend (API):** rotas para criar, listar, atualizar e remover itens  
+- **Frontend:** interface web simples para interagir com a API  
+- **Execução independente:** cada pasta funciona separadamente  
+
+---
+
+## 🛠 Tecnologias
 
 ### Backend
-- [Node.js](https://nodejs.org/)  
-- [Express.js](https://expressjs.com/)  
-- [Nodemon](https://nodemon.io/) *(para facilitar o desenvolvimento)*  
+- **Node.js**  
+- **Express.js**  
+- **Nodemon** *(dev)*  
 
 ### Frontend
-- [HTML, CSS, JavaScript] *(React, Typescript)*  
-- Fetch API para comunicação com o backend  
+- **HTML, CSS, JavaScript** (React, Typescript)  
+- **Fetch API** para comunicação com a API  
 
 ---
 
-## 📦 Como executar o projeto
+## 📦 Como Rodar
 
-O projeto tem **duas pastas**: `backend` e `frontend`.  
-Cada uma precisa instalar suas dependências e rodar separadamente com o npm,
-o frontend com o npm run start, o backend com npm run dev.
+Este projeto possui **duas pastas**: `backend` e `frontend`.  
+Você deve instalar e executar **cada uma separadamente**.
 
----
+-Frontend: npm run start
+-Backend: npm run dev
 
-### Clonar o repositório
+### 1️⃣ Clonar repositório
 ```bash
 git clone https://github.com/charlesZanetti/Express_CRUD_JS.git
 cd Crud-inicial
+
